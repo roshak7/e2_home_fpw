@@ -1,4 +1,2 @@
-// Задание №4
-let myVar;
-myVar = Math.floor(Math.random()*100);
-console.log(myVar);
+let a = Math.floor(Math.random()*100)
+alert(a)

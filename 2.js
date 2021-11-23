@@ -1,16 +1,12 @@
 // Задание №2
-let x;
-// x = 2;
-// x = 'string'
-x = true;
-
+let a = True
 
 if (typeof x === 'string'){
-    console.log('x - string');
+    console.log('Это строка');
 }else if(typeof x === 'number'){
-    console.log('x - number');
+    console.log('Это число');
 }else if(typeof x === 'boolean'){
-    console.log('x - boolean');
+    console.log('Это логический тип');
 }else{
     console.log('Тип x не определён');
 }

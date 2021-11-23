@@ -1,18 +1,17 @@
-// Задание №1
-let newNumber
-newNumber = prompt('Введиет число:');
-++newNumber;
---newNumber;
-if (typeof newNumber === 'number') {
-    if (newNumber != NaN){
-        if (newNumber%2 == 0) {
-            console.log('Ваще число четное');
-        }else {
-            console.log('Ваше число нечетное');
-        }
-    }else {
-        console.log('Это NaN');
-    }
+let a = +prompt('Что то напишите:');
+
+console.log(a);
+
+if(typeof a === 'number'){
+if(a % 2 === 0){
+console.log('Ваше число четное')
 }else{
-    console.log('Преобразование к числу невозможно!!!')
+console.log('Число нечетное')
+}
+}
+else if (typeof a === 'NaN'){
+console.log('Это НАН ЧТО ТО ПОШЛО НЕ ПО ПЛАНУ')
+}
+else{
+console.log('Упс кажется вы ошиблись')
 }

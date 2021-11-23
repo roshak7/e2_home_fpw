@@ -1,16 +1,10 @@
-// Задание №6
-let myArray = [3,4,5,7,8,3,5,6,0,5,6,8,12,0];
-let checkResult = false;
+let a = [1,3,1]
 
-for (let i = 0; i < myArray.length; i++){
-    for (let j = 0; j < myArray.length; j++){
-        if (myArray[i] == myArray[j] && i != j){
-            checkResult = true;
-            break;
-        }
-    }
-    if (checkResult == true) {
-        break;
+
+for(var i = 1; i < a.length; i++) {
+    if(a[i] !== a[0]) {
+        console.log("False");
+    }else {
+      console.log('True')
     }
 }
-console.log(checkResult);

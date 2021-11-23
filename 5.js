@@ -1,6 +1,5 @@
-// Задание №5
-let myArray = [3,4,5,7,8,3,5,6];
-console.log('Количество элементов:'+myArray.length);
-myArray.forEach(function(item, index, array) {
-    console.log(item);
-});
+let aray = [123,123,54,56,576,23,21,5,7,87]
+console.log('Количество элементов:' + aray.length)
+for (let i = 0; i < aray.length ; i++){
+    console.log(aray[i])
+}

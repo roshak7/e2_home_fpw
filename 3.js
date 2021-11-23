@@ -1,5 +1,3 @@
-// Задание №3
-let myStr = 'Hello world!'
-newStr = myStr.split('').reverse().join('');
-console.log(newStr);
-
+let a = 'Hello'
+b = a.split('').reverse().join('');
+console.log(b);
